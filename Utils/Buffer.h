@@ -1,6 +1,16 @@
 #pragma once
 
-#include "Sugar.h"
+#include <stdint.h>
+#include <stddef.h>
+#include <limits.h>
+
+#ifndef nullptr
+#define nullptr NULL
+#endif
+
+#ifndef override
+#define override
+#endif
 
 namespace Utils {
 	class Buffer {
